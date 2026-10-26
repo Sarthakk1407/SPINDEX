@@ -78,3 +78,6 @@ docs/revb.txt
 
 # base64 sidecars are a build artefact of handbook/build_artifact.py
 handbook/assets/models/*.glb.txt
+
+SPINDEX_Sustainathon.pdf
+SPINDEX_Sustainathon.pptx
