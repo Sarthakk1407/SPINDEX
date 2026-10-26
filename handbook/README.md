@@ -22,7 +22,6 @@ handbook/
   assets/draco/           Draco decoder, shipped locally
   assets/img/             figures and hardware photographs
   tools/make_figures.py   regenerates assets/img/hero_glint.png from the pipeline
-  build_artifact.py       emits an Artifact-ready copy of index.html
 ```
 
 ## Run it locally
@@ -37,7 +36,7 @@ python -m http.server 8000 --directory handbook
 For development, use the no-cache server so edits take effect:
 
 ```bash
-python .claude/serve_handbook.py 8778
+python tools/serve_handbook.py 8778
 ```
 
 ## Deploy it
